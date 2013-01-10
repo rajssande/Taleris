@@ -1,0 +1,186 @@
+/* -------- Global -------- */
+
+#skip-to-content,
+#heading .community-title,
+#heading .page-title,
+#navigation h1 {
+	clip: rect(0 0 0 0);
+	position: absolute;
+}
+
+#heading,
+#navigation ul,
+#content,
+#footer {
+	margin: 0 auto;
+	width: 99%;
+}
+
+body {
+	font: 12px/1.5 Arial, Helvetica, Verdana, sans-serif;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #08C;
+}
+
+/* -------- Wrapper / Skip / Sign-in / Banner / Footer -------- */
+
+#wrapper {
+	position: relative;
+	
+}
+
+#skip-to-content,
+#sign-in {
+	color: #FFF;
+	right: 1em;
+}
+
+#skip-to-content {
+	top: 1em;
+}
+
+#skip-to-content:active,
+#skip-to-content:focus {
+	clip: auto;
+}
+
+#sign-in {
+	position: absolute;
+	top: 3em;
+	text-decoration: underline;
+	color:blue;
+}
+
+.logo img{
+	margin:0;
+}
+
+#banner {
+	background: #5F5F5F url(../images/custom/banner_bg.png) repeat-x bottom;
+	margin:  0 0 22px;
+}
+
+#banner #headerSpacer {
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 0;
+	height:3em;
+}
+
+#banner .wrapperCompany{
+	float:left;
+	position:relative;
+	top:-20px;
+}
+
+#banner .wrapperCompany div{
+	display:inline;
+}
+
+#banner .wrapperCompany .companyName{
+	position: relative;
+	top:-10px;
+	left:20px;
+	font-size: 1.5em;
+		
+	
+}
+
+#banner .wrapperUser{
+	 float:right;
+	 margin-top:-20px;
+	 margin-right:10px;
+}
+#banner .userName{
+	margin-right:2px;
+	display:inline;
+	color: #666;
+}
+
+#banner .signOut{
+	display:inline;
+}
+#banner .signOut a{
+	text-decoration: underline;
+	color: blue;
+}
+
+#banner .dateTime{
+	display:block;
+	color:#666;
+	font-size: .8em;
+}
+
+
+#banner .company-title {
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+#footer {
+	margin: 20px auto;
+	text-align: right;
+}
+
+
+
+
+/* -------- Navigation -------- */
+
+#navigation {
+	border-bottom: 1px solid #CCC;
+	padding: 22px 0 0;
+	zoom: 1;
+}
+
+#navigation ul {
+	height: 28px;
+	list-style: none;
+	margin: 0 auto -1px;
+	position: relative;
+}
+
+#navigation li,
+#navigation a {
+	float: left;
+}
+
+#navigation a {
+	color: #555;
+	display: block;
+	float: left;
+	font-size: 14px;
+	padding: 3px 30px 3px 0;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #F00;
+}
+
+#navigation .selected a {
+	border-bottom: 1px solid #000;
+	color: #000;
+}
+
+/* -------- Content -------- */
+
+#content {
+	color: #454545;
+}
+
+#breadcrumbs {
+	display: none;
+}
+
+.portlet {
+	margin: 0 0 1em;
+}
